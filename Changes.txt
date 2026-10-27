@@ -6,6 +6,6 @@ I added a few enemy types so it was not just the same red enemy every time. The 
 
 I changed the look a lot too. I added the grid, glow, bullet trails, the aim line, score, best score, wave text and an ammo bar. I also added sounds and little hit effects so it did not feel like a blank test scene.
 
-I changed the difficulty a few times while testing. The first version got hard way too fast, then I made it too easy. Now enemies still get faster each wave and more of them spawn as the waves go up, but the start is not as crazy.
+I changed the difficulty a few times while testing. I ended up going back to the easier setup because the faster version felt like too much. Enemies get 0.07 faster each wave, they spawn about every 1.05 seconds, there is a 2 second break between waves, and each wave spawns 2 plus about 0.9 more enemies for every wave.
 
 I also fixed some small stuff while testing. Enemies were spawning outside the visible board on wider screens, so I changed the spawn area to use the actual board. I also fixed the junk shot so it follows the rule I wanted instead of hurting everything or nothing.

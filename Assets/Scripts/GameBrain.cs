@@ -28,8 +28,8 @@ public class GameBrain : MonoBehaviour
     public GameObject overlayPanel;
 
     [Header("waves")]
-    public float gapBetweenSpawns = 0.85f;
-    public float breatherBetweenWaves = 1.5f;
+    public float gapBetweenSpawns = 1.05f;
+    public float breatherBetweenWaves = 2.0f;
 
     [Header("drops")]
     [Range(0f, 1f)] public float dropChance = 0.72f;
@@ -172,7 +172,7 @@ public class GameBrain : MonoBehaviour
     void NextWave()
     {
         wave++;
-        leftToSpawn = 2 + Mathf.CeilToInt(wave * 1.2f);
+        leftToSpawn = 2 + Mathf.CeilToInt(wave * 0.9f);
         spawnTimer = 0.55f;
         PlayClip(waveSfx, 0.6f);
     }
@@ -202,7 +202,7 @@ public class GameBrain : MonoBehaviour
         Enemy e = Instantiate(pick, spot, Quaternion.identity);
 
         // everything gets a little faster every wave, that's the difficulty curve
-        e.speed += Mathf.Max(0, wave - 1) * 0.12f;
+        e.speed += Mathf.Max(0, wave - 1) * 0.07f;
     }
 
     int CountEnemies()
