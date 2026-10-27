@@ -1,0 +1,20 @@
+# unity folders that get remade automatically
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# ide stuff
+.vscode/
+.idea/
+.vs/
+*.csproj
+*.sln
+*.user
+*.userprefs
+
+# mac files
+.DS_Store
