@@ -2,10 +2,10 @@ Changes from my original design
 
 The main idea is still the same. Shooting is the only way you move around. I ended up making it more of a wave survival game because it was more fun when there was always something coming after you.
 
-I added a few enemy types so it was not just the same red enemy every time. The purple one takes more hits and the teal one splits into smaller enemies. I also added the blue ammo pickups because the game was way too annoying when you ran out. If you hit zero ammo you can still shoot a weak shot, but it only moves you and does not hurt enemies.
+I added a few enemy types so it was not just the same red enemy every time. The purple one takes more hits and the teal one splits into smaller enemies. I also added the blue ammo pickups because the game was way too annoying when you ran out. If you hit zero ammo you still get the junk shot so you can move. It can kill the red chasers and teal splitters, but it does no damage to the purple tanks.
 
 I changed the look a lot too. I added the grid, glow, bullet trails, the aim line, score, best score, wave text and an ammo bar. I also added sounds and little hit effects so it did not feel like a blank test scene.
 
-After playing it I made the first waves easier. Enemies were coming too fast before, so I slowed them down some, made them spawn a little slower and made ammo easier to get. It still gets harder as the waves go up.
+I changed the difficulty a few times while testing. The first version got hard way too fast, then I made it too easy. Now enemies still get faster each wave and more of them spawn as the waves go up, but the start is not as crazy.
 
-I also fixed some small stuff while testing, like enemies showing up outside the board and the no ammo shot being able to kill the red enemies.
+I also fixed some small stuff while testing. Enemies were spawning outside the visible board on wider screens, so I changed the spawn area to use the actual board. I also fixed the junk shot so it follows the rule I wanted instead of hurting everything or nothing.
