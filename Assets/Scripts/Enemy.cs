@@ -61,8 +61,8 @@ public class Enemy : MonoBehaviour
     {
         flash = 0.1f;
 
-        // empty ammo shot is only for moving around. it shouldn't hurt anything
-        if (weakShot)
+        // junk shot can kill the normal stuff but tanks don't care
+        if (weakShot && kind == Kind.Tank)
         {
             if (GameBrain.Instance != null) GameBrain.Instance.Sparks(where, baseColor, 2);
             return;
