@@ -453,8 +453,8 @@ public class BuildArena
         brain.bigText = big;
         brain.ammoFill = fill;
         brain.overlayPanel = overlay.gameObject;
-        brain.gapBetweenSpawns = 1.05f;
-        brain.breatherBetweenWaves = 2.0f;
+        brain.gapBetweenSpawns = 0.95f;
+        brain.breatherBetweenWaves = 1.75f;
         brain.dropChance = 0.72f;
         return brain;
     }
