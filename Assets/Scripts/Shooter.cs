@@ -105,8 +105,8 @@ public class Shooter : MonoBehaviour
 
     void Shoot(Vector2 aim)
     {
-        // out of ammo doesn't mean stuck. the junk shot still pushes you around,
-        // but it doesn't damage enemies. it's just there so you can reach more ammo
+        // out of ammo doesn't mean stuck. the junk shot still pushes you around.
+        // it can kill the red and teal enemies, but the tank just ignores it
         bool weak = (ammo <= 0);
 
         Bullet b = Instantiate(bulletPrefab, rb.position + aim * 0.55f, Quaternion.identity);
